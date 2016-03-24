@@ -1,3 +1,13 @@
+# Scalable Solution to Decision-Making Paradigm
+# Purpose: to transform data for use in MatLab via Pandas to a pre-existing program
+# Separates trials into Silver and Gold trials
+# Indicates change on a prior trial
+# Indicates staying on a past trial of the same type
+# Indicates total reward by responding when they should
+# Converts data to a usable tab-delimited .txt file.
+
+# Please contact Tom Tibbett with questions or feedback
+
 import pandas as pd
 import numpy as np
 
@@ -130,4 +140,4 @@ print final
 
 final.to_csv(txtout, header=False, index=False, sep='\t')
 
-print "File creation complete"
+print "File creation complete."
