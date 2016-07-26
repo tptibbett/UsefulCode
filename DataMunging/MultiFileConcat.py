@@ -1,6 +1,7 @@
 # Multiple File Concatenation
 # Date of Creation: 07/25/2016
 # Created by Tom Tibbett
+# Purpose: Union all files of a certain type in one working directory.
 
 import os # to make things non-specific to OS.
 import numpy as np            

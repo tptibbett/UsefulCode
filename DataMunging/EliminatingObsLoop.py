@@ -1,3 +1,8 @@
+# Eliminating Observations on Separate files
+# Date of Creation: 07/25/2016
+# Created by Tom Tibbett
+# Purpose: Eliminate observations amongst several files simultaneously.
+
 # Importing relevant libraries
 import numpy as np
 import pandas as pd
