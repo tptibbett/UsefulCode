@@ -2,6 +2,9 @@
 # Date of Creation: 07/25/2016
 # Created by Tom Tibbett
 # Purpose: Union all files of a certain type in one working directory.
+# I utilized this to help a peer pre-process hundreds of individual data files.
+# I later altered this to unify month csvs of police activity in Baltimore, Maryland.
+# See Baltimore_Police_Crime_Geospatial.R for this application.
 
 import os # to make things non-specific to OS.
 import numpy as np            
@@ -9,10 +12,11 @@ import pandas as pd
 import glob 
 
 # Remember, this is specifically for files that have the same columns.  They need to all be in the same folder.
-path = r'C:\\Users\\I856176\\Documents\\Python Scripts\\IAPS\\Output'
+# Obviously, your path will likely be different, so be sure to change this.
+path = r'C:\\Users\\Tom\\Output'
 
 # Be very careful! If you don't have your output in a different place, it will concatenate with the other files if you run this alone!
-output= r'C:\\Users\\I856176\\Documents\\Python Scripts\\IAPS\\Output\\IAPSimages.csv'
+output= r'C:\\Users\\Tom\\Output\\IAPSimages.csv'
 all_files = glob.glob(os.path.join(path, "*.dat")) # Selects all .dat files in this path.  Make sure you want to concat all .dat files!
 
 # Concatenates all files into one pandas DataFrame.
@@ -29,4 +33,5 @@ print '\nDataFrame Dimensions:'
 df.shape
 
 # Printing amalgamated file to a singular CSV file.
+# The colleague did not want headers or index labels.
 df.to_csv(output, index=False, header=False)

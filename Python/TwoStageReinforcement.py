@@ -1,9 +1,14 @@
-# Scalable Solution to Decision-Making Paradigm
+# Pre-Processing the Two-Stage Reinforcement Learning Devaluation Task.
+# Created by Tom Tibbett
+# Created: 09/01/2016
 # Purpose: to transform data for use in MatLab via Pandas to a pre-existing program
+# Why Gold and Silver trials?  This is the two-stage reinforcement learning devaluation
+# task detailed in Gillan, Otto, Phelps, & Daw, 2015.
+
 # Separates trials into Silver and Gold trials
 # Indicates change on a prior trial
 # Indicates staying on a past trial of the same type
-# Indicates total reward by responding when they should
+# Indicates total reward when participants are responding when they should
 # Converts data to a usable tab-delimited .txt file.
 
 # Please contact Tom Tibbett with questions or feedback

@@ -4,7 +4,7 @@
 #			This ordinarily can be done in Excel, but if people do not have Excel, this
 #			comma removal may prove useful.
 # Please direct questions to Tom Tibbett: tptibbett@gmail.com
-# Last executed: 07/25/2016
+# Last executed: 08/31/2016
 
 # Input: 	Consumer Complaints data, primarily qualitative data.
 #			Consumer_Complaints.csv from https://catalog.data.gov/dataset/cgb-consumer-complaints-data

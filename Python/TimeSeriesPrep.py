@@ -2,6 +2,9 @@
 # Purpose: To transpose and combine various CSV files in preparation for time series analysis.
 # Please direct questions to Tom Tibbett: tptibbett@gmail.com
 # Last executed: 07/18/2016
+# Note: This code was adapted from a real industry solution I provided a client.  It has been
+# anonymized to protect identities and prevent tampering-- for this reason, I also cannot provide
+# the exact dataframe.
 
 # Data:		This theoretical data assumes 3 years and 2 months of monthly data from Jan 2012 to
 #			February 2015.  The client would eventually like to predict Units Sold via 
