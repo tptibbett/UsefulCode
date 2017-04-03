@@ -1,6 +1,7 @@
 # The Balloon Analogue Risk Task
 ## An impulsivity measure in Python
 Created (February 22, 2017) by Tom Tibbett in PsychoPy2
+
 PsychoPy2 created by Jonathan Pearce
 
 ## Frequently Asked Questions
