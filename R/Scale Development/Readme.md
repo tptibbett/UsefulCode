@@ -1,11 +1,11 @@
-# Personality Consistency Scale (PCS) Dissertation
-## Documentation Updated: Apr 2nd, 2017
-## Author: Tom Tibbett
-## Purpose: Noting which files are relevant to analysis and organizing an ETL pipeline
+# Personality Consistency Scale (PCS) Dissertation Pipeline
+### Documentation Updated: Apr 2nd, 2017
+### Author: Tom Tibbett
+### Purpose: Noting which files are relevant to analysis and organizing an ETL pipeline
 
 ### Documentation -- What is this?
 
-This file details relevant files and contingencies for analysis.  The pipeline consists of five basic files, some in Python and others in R.  These scripts create files which are dependent upon one another; be careful to start with Desc.IPYNB and progress down this readme in a linear fashion.  Eventually, I may have an update that includes bash scripts.  This should remove the problem of having to run each script one after the other.  Currently, I am looking to see if it is alright to post anonymized data-- the IRB will get back to me.  For now, no data files are posted.
+This pipeline was created by me in conjunction with completing my dissertation in the Psychological and Brain Sciences department at Texas A&M University. The documentation of this pipeline details relevant files and contingencies for analysis.  The pipeline consists of five basic files, some in Python and others in R.  These scripts create files which are dependent upon one another; be careful to start with Desc.IPYNB and progress down this readme in a linear fashion.  Eventually, I may have an update that includes bash scripts.  This should remove the problem of having to run each script one after the other.  Currently, I am looking to see if it is alright to post anonymized data-- the IRB will get back to me.  For now, no data files are posted.
 
 ### Housekeeping Map -- Where are things kept?
 
@@ -28,7 +28,7 @@ This file details relevant files and contingencies for analysis.  The pipeline c
 
 Desc.IPYNB does simple descriptives.  It outputs mean scores and other statistics, as well as creates a streamlined, merged file. This stage does reverse coding as well as removing suspicious participants. Finally, it completes corrections on misspellings that prevent simple aggregation.
 
-### Output -- 
+### Output
 
 * PCS_cleaned_data.csv: Streamlined data set for later 
 * Table_Alpha.csv: Cronbach's alpha for each scale
@@ -57,7 +57,7 @@ Desc.IPYNB does simple descriptives.  It outputs mean scores and other statistic
 
 Analyses coders to output interrater reliability (alpha/ICC).  Coders may then choose to conference and find consensus.
 
-### Output 
+### Output:
 
 * Fluency.txt: Fluency Results between 3 coders
 * Flexibility.txt: Flexibility Results between 3 coders
@@ -74,7 +74,7 @@ Analyses coders to output interrater reliability (alpha/ICC).  Coders may then c
 
 One coder categorized each idea.  As a more objective measure of originality, this script will measure the total number of ideas and then yield a percentage: the number of ideas in a category divided by the total ideas among all participants. All ideas under 60 (3.5%) will receive one point. All ideas under 32 (1%) will receive two points.  The script will finally assign a score to each participant by matching the scores back to the participant number.
 
-### Output
+### Output:
 
 * OrigIIScores.csv: Creates a simple score for each participant
 
@@ -90,7 +90,7 @@ One coder categorized each idea.  As a more objective measure of originality, th
 
 This script will create a simple correlation matrix between all variables created so far.  It will also create tables which detail the inferential statistics necessary for reporting analyses, with particular focus on the predicted analyses: creativity performance and the Personality Consistency Scale.
 
-### Output -- 
+### Output: 
 
 * CorrMatrix.csv: Correlation Matrix 
 * CorrPvalues.csv: Correlation Analysis Tables
@@ -107,7 +107,7 @@ This script will create a simple correlation matrix between all variables create
 
 This script will analyze whether the PCS can explain variance over and above preexisting scales.  For each of the five measures of creativity (including Type II Originality), the PCS will be weighted against scales in Personality Variability and Creativity respectively.  R-squared change will be calculated for each step of the analysis, the first block being all existing measures, and the last with the Personality Consistency Scale added to the model.
 
-### Output
+### Output:
 
 * Table_FluVar.csv: PCS adding to Fluency vs. other variability scales
 * Table_FluCre.csv: PCS adding to Fluency vs. other creativity scales
