@@ -1,7 +1,7 @@
 # Personality Consistency Scale (PCS) Dissertation Pipeline
-### Documentation Updated: Apr 2nd, 2017
-### Author: Tom Tibbett
-### Purpose: Noting which files are relevant to analysis and organizing an ETL pipeline
+* Documentation Updated: Apr 3rd, 2017
+* Author: Tom Tibbett
+* Purpose: Noting which files are relevant to analysis and organizing an ETL pipeline
 
 ### Documentation -- What is this?
 
