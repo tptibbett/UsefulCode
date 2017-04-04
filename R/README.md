@@ -2,6 +2,9 @@
 ## Scale Development
 This folder concerns my dissertation in scale development.  I created and validated a scale in perceived personality consistency using both quantitative and qualitative analyses.  I decided to code the analyses almost completely in R.  The pipeline involves descriptive statistics, inferential statistics, reliability (both interrater and internal consistency), and validity (convergent, discriminant, predictive, and incremental).  Results indicated evidence for a valid 5-item measure.
 
+## APA_t.R
+This code is a simple function I created to quickly convert t-tests to APA style.  It was particularly useful when utilized for gender studies.  It yields the APA documentation, the interpretation, and the mean scores.  Other information can be acquired from summaries of the analysis itself.
+
 ## Baltimore_Police_Crime_Geospatial.R
 This code utilizes ggmap, stacking on ggplot2, to create a scatterplot overlay on a subset of geography.  I utilized years of monthly crime reports on a publically accessible database for Baltimore, MD, to find out just how much hand-to-hand combat goes on in Baltimore.  This code utilizes ggplot, ggmap, and various base R functions.  This code was driven by practice and curiosity.
 

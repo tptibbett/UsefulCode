@@ -1,0 +1,501 @@
+ID,Age,Sex,Edu,Size,Type,Regret,LS,DP,AIP
+1,19,Male,,Small Town,Self,2.1,2,1.6,4.533333333
+2,67.5,Male,,Small Town,Family,1.888888889,3.4,3,4.533333333
+3,45,Female,deg,Medium-Sized,Finance,3.8,3.4,5,4.2
+4,21,Female,,Village,Leisure,2.111111111,4.6,1.4,4.2
+5,32.5,Male,ma,Large-City,Career,4.333333333,1.8,4.2,4.2
+6,67.5,Male,phd,Village,Health,3.8,1.6,3.6,4.2
+7,45,Female,,Medium-Sized,Religion,3.636363636,3.8,1,3.933333333
+8,28,Female,phd,Small Town,Health,2.9,3.8,2.4,3.866666667
+9,22,Male,ma,Small Town,Education,3.111111111,2.8,3.4,3.933333333
+10,25,Female,,Village,Education,2,3.2,3.8,4.333333333
+11,28,Female,high,Small Town,Finance,3.272727273,1.2,4.2,4.933333333
+12,45,Male,deg,Large-City,Career,3.666666667,1,4.2,4.333333333
+13,28,Female,deg,Medium-Sized,Career,2.4,3.8,1.4,3.933333333
+14,28,Male,ma,Large Town,Finance,1.4,2.8,3.4,3.666666667
+15,28,Male,high,Large-City,Friends,3.777777778,3.2,3,4.466666667
+16,32.5,Female,deg,Large Town,Self,3.666666667,3.2,4.2,4.4
+17,45,Male,ma,Village,Career,2.375,3.6,4.2,4.066666667
+18,19,Male,high,Large Town,Education,2.916666667,3.6,3.2,4.666666667
+19,22,Female,deg,Small Town,Friends,1.285714286,3.2,2.6,3.866666667
+20,28,Male,ma,Large-City,Romance,2.8,3.6,3.4,4.333333333
+21,22,Male,,Large-City,Finance,2.875,2.2,1.8,4.866666667
+22,25,Male,deg,Village,Education,2,2.8,1.6,3.666666667
+23,45,Male,phd,Large Town,Career,2.25,4.2,2,4.2
+24,28,Male,,Village,Career,4.1,4,4.2,4.4
+25,24,Male,lthigh,Small City,Education,3.9,1.2,4.2,4
+26,37.5,Male,dip,Village,Romance,4,1.4,4,3.733333333
+27,24,Male,lthigh,Small Town,Career,3,1.2,4.2,4
+28,45,Female,phd,Large Town,Health,2.222222222,3.2,2.8,3.466666667
+29,55,Female,ma,Large-City,Religion,1.444444444,3.8,1.8,3.933333333
+30,28,Female,deg,Medium-Sized,Romance,2.090909091,2,4,3.733333333
+31,45,Male,ma,Medium-Sized,Career,3.272727273,2.4,2.2,4.2
+32,55,Male,dip,Medium-Sized,Education,,1,3,4.266666667
+33,25,Female,ma,Medium-Sized,Health,3.090909091,2.8,3.6,4.066666667
+34,28,Male,high,Medium-Sized,Career,,1,1,2.333333333
+35,28,Female,high,Small City,Education,2.818181818,3.6,3.6,4.533333333
+36,37.5,Male,deg,Large-City,Religion,3.3,2.8,3.4,3.666666667
+37,22,Male,dip,Small Town,Education,3.555555556,2.2,4,4.333333333
+38,37.5,Female,ma,Rural/Country,Career,2.6,2.4,3.6,3.933333333
+39,67.5,Male,ma,Small Town,Self,1.666666667,4,2.4,3.6
+40,37.5,Male,phd,Village,Career,4,2.4,3.2,4.466666667
+41,28,Male,deg,Large-City,Finance,2.333333333,4.2,2.4,4.6
+42,45,Female,dip,Large-City,Romance,4,2.2,4.4,4.266666667
+43,45,Female,deg,Large-City,Career,3.5,2.8,4,3.8
+44,22,Male,,Village,Education,3.444444444,1.6,3.2,4.266666667
+45,80,Female,high,Large Town,Finance,2.833333333,2.8,5,4.066666667
+46,23,Male,high,Medium-Sized,Health,3.444444444,2.6,4.2,4.333333333
+47,45,Female,ma,Medium-Sized,Religion,3.444444444,2.6,3.8,3.866666667
+48,28,Female,ma,Medium-Sized,Self,3.777777778,2.4,2.2,4.066666667
+49,25,Male,deg,Village,Career,2.818181818,2,4.4,4.266666667
+50,32.5,Female,ma,Large-City,Career,2.272727273,3.6,2.8,4.066666667
+51,55,Female,deg,Large Town,Health,1.375,4.2,1.8,4.4
+52,21,Male,deg,Large Town,Career,3.8,2.8,4.6,4.2
+53,28,Female,deg,Village,Career,2.7,2,4,4.066666667
+54,45,Female,grade,Large Town,Career,2.333333333,4.2,2.6,4.133333333
+55,32.5,Female,phd,Medium-Sized,Romance,3.25,3,2.6,4.2
+56,55,Female,deg,Small Town,Career,4.4,3.2,4,3.8
+57,45,Female,deg,Small Town,Career,4,2.8,4.2,4
+58,25,Female,ma,Large Town,Education,2.454545455,2.4,3,4.266666667
+59,45,Female,ma,Rural/Country,Finance,4.2,2.2,4,4.333333333
+60,32.5,Male,phd,Village,Career,2.545454546,1.4,3.8,4.266666667
+61,20,Male,deg,Medium-Sized,Education,3.454545455,2,3.2,4.133333333
+62,37.5,Male,ma,Small Town,Health,2.1,4.6,2.2,4.8
+63,67.5,Male,,Large Town,Family,2.5,3,3,3.8
+64,37.5,Male,dip,Village,Career,3,3.4,3.6,4.4
+65,32.5,Male,ma,Village,Career,3.818181818,1.2,4,4.333333333
+66,16.5,Female,high,Rural/Country,Education,3.6,2.8,3.4,4.333333333
+67,32.5,Male,deg,Village,Career,3,2.8,2.6,4.333333333
+68,28,Female,deg,Village,Career,4.3,2,5,4.4
+69,28,Female,deg,Small Town,Self,2.272727273,3.2,2.4,4.066666667
+70,45,Male,ma,Village,Career,3.555555556,2.6,3,4.333333333
+71,45,Male,deg,Village,Romance,4.5,1.4,5,4
+72,16.5,Female,lthigh,,Family,2.3,2.6,3.6,4.2
+73,32.5,Female,phd,Village,Self,3.25,3.2,3.2,4.266666667
+74,32.5,Male,deg,Village,Career,3.545454546,2.4,3.8,3.866666667
+75,32.5,Female,phd,Small Town,Career,1.888888889,3.4,2.4,4.133333333
+76,55,Male,phd,Small Town,Friends,3.1,3.4,2.2,4.2
+77,55,Female,ma,Medium-Sized,Health,4.727272727,2,3.4,4.2
+78,45,Male,,Large-City,Self,4.916666667,1.8,4,4.4
+79,37.5,Male,deg,Large-City,Career,3.75,2,5,4.666666667
+80,28,Male,deg,Large-City,Career,3.363636364,2.2,4,4.666666667
+81,22,Female,high,Large-City,Education,3.7,3.6,2.8,3.933333333
+82,55,Male,,Rural/Country,Health,3.625,1.2,2.8,4.6
+83,45,Female,deg,Medium-Sized,Self,4.2,1.8,3.4,3.933333333
+84,32.5,Male,lthigh,Village,Education,2.916666667,1.4,4.2,4.8
+85,32.5,Female,ma,Rural/Country,Education,3.2,3.6,3.2,4.066666667
+86,28,Male,ma,Village,Parenting,2.666666667,4.2,1.8,4.2
+87,20,Male,deg,Rural/Country,Romance,3.6,3.8,4,4.6
+88,28,Female,,Village,Health,4.5,1.6,4.4,4.533333333
+89,55,Female,dip,Village,Career,3.1,3.4,2.4,3.733333333
+90,45,Female,ma,Medium-Sized,Friends,2.222222222,3,2,4.266666667
+91,67.5,Male,phd,Village,Career,2.666666667,3.6,1.6,4.266666667
+92,28,Female,deg,Large-City,Health,2.545454546,3.2,2.2,4
+93,32.5,Female,deg,Large-City,Career,2.909090909,1.4,5,3.8
+94,28,Female,deg,Large-City,Friends,2.857142857,4,3.4,4.266666667
+95,37.5,Female,deg,Large-City,Career,3.5,2.8,3.6,4.066666667
+96,21,Female,,Medium-Sized,Education,1.888888889,4.2,3,3.933333333
+97,32.5,Male,phd,Large-City,Self,2.833333333,2.4,3.2,4.333333333
+98,23,Female,ma,Large Town,Finance,2.636363636,3.6,3,3.733333333
+99,28,Female,ma,Large-City,Finance,3.4,4,4,4.066666667
+100,32.5,Female,deg,Large-City,Finance,3.7,2.2,3.6,4.4
+101,28,Female,,Large-City,Education,2.8,4.4,2.8,4.666666667
+102,19,Male,,Large-City,Career,2.272727273,2.4,1,3.733333333
+103,21,Female,,Large Town,Education,2.818181818,2.6,4.2,4.266666667
+104,16.5,Female,high,Village,Education,4,1.4,3.4,3.8
+105,32.5,Female,ma,Large-City,Career,2.6,3.8,3,3.6
+106,21,Male,,Medium-Sized,Education,3.222222222,2,2.8,3.733333333
+107,37.5,Male,,Large-City,Finance,3.909090909,2.6,2.2,4.066666667
+108,24,Male,high,Large-City,Education,3,3,2.6,4.133333333
+109,28,Female,deg,Large-City,Education,1.444444444,3.2,3.2,4.333333333
+110,20,Female,,Large Town,Education,3,2.6,4,4.466666667
+111,20,Male,,Large-City,Career,3.222222222,3.8,2.4,4.666666667
+112,20,Female,,Large-City,Education,2.181818182,4.4,2,4.133333333
+113,55,Female,grade,Village,Health,4.727272727,1,4.4,4.4
+114,37.5,Female,,Large Town,Career,3.272727273,4.4,4.2,4.533333333
+115,28,Male,grade,Small Town,Career,2.181818182,1.2,4.6,4.133333333
+116,55,Female,ma,Village,Finance,2.25,4,2.2,4.133333333
+117,45,Female,deg,Medium-Sized,Romance,2.75,3,4.2,4.666666667
+118,32.5,Female,deg,Village,Romance,3.25,1.8,2.6,4.066666667
+119,19,Male,,Village,Self,3.1,2.2,2.8,3.8
+120,55,Male,deg,,Career,2.545454546,2,3.8,4.4
+121,45,Female,phd,Large Town,Health,3.454545455,2.6,2.4,4.133333333
+122,28,Male,deg,Small Town,Self,3,1.8,3,3.733333333
+123,37.5,Female,,Small Town,Education,2.625,2.4,1.2,3.866666667
+124,28,Male,deg,Large-City,Career,4,2,5,4.2
+125,37.5,Male,ma,Rural/Country,Education,3.111111111,2.6,4.2,4.466666667
+126,45,Female,phd,Village,Romance,3.454545455,3.6,2.8,4.2
+127,25,Male,ma,Village,Career,4.25,1,4.6,4.266666667
+128,21,Male,ma,Rural/Country,Career,1.285714286,2.2,2,2.8
+129,23,Male,ma,,Career,1,3.2,1.8,3.4
+130,22,Female,ma,Small Town,Health,,2.8,2.4,4.4
+131,45,Male,deg,Small Town,Self,3.3,4,2.4,3.866666667
+132,37.5,Female,ma,Village,Career,3,4.4,2,4.333333333
+133,45,Female,,Small City,Family,4.4,1.6,2.6,3.4
+134,32.5,Female,deg,Large-City,Career,1.909090909,3.8,1.8,4.866666667
+135,37.5,Female,,Small Town,Finance,3.888888889,1.2,3.2,3.933333333
+136,45,Female,deg,Small Town,Career,1.375,1,1.8,4.2
+137,55,Female,,Medium-Sized,Parenting,2.888888889,1.4,3.6,3.6
+138,16.5,Male,,Small Town,Career,,2.6,2.2,4
+139,7.5,Female,,Large Town,Family,1.818181818,2.4,2.4,4.066666667
+140,45,Female,,Small City,Career,3.1,1,4,4.133333333
+141,28,Female,,Medium-Sized,Family,4.416666667,1.8,3.2,3.8
+142,45,Male,,Small Town,Career,,2.2,2.6,4.333333333
+143,55,Female,,Medium-Sized,Health,3,2.6,2,4
+144,55,Male,deg,Large-City,Career,3.1,1.8,3,4.533333333
+145,45,Male,,Large-City,Self,4.090909091,4,4.4,3.2
+146,67.5,Male,ma,Rural/Country,,2,4.4,1,4
+147,28,Female,deg,Medium-Sized,Education,3.666666667,2.2,4.4,4.333333333
+148,28,Female,deg,Medium-Sized,Education,2.75,2.8,2.8,4.266666667
+149,28,Female,ma,Large-City,Finance,1.545454546,4.2,2.6,4.133333333
+150,16.5,Female,high,Medium-Sized,Education,4,1,5,4.466666667
+151,45,Female,deg,Medium-Sized,Religion,3.3,3,3.6,4.533333333
+152,55,Female,deg,Small City,Friends,2.777777778,3,1.6,3.733333333
+153,45,Male,deg,Large-City,Finance,3.666666667,3,2.8,4.333333333
+154,28,Female,dip,Large-City,Community,2.444444444,4,2.6,4
+155,45,Male,phd,Medium-Sized,Career,3.714285714,3.8,3.6,3.933333333
+156,24,Female,high,Rural/Country,Finance,5,1.8,5,3.933333333
+157,20,Female,dip,Small Town,Friends,2.8,3.8,1.4,3.733333333
+158,55,Female,deg,Large-City,Finance,1.181818182,4,1.6,3.866666667
+159,55,Male,deg,Large-City,Career,2.777777778,3.8,3.4,4.066666667
+160,32.5,Female,ma,Medium-Sized,Career,2.2,2.8,3.4,4.533333333
+161,45,Female,dip,Small City,Friends,2.3,3.8,3.2,3.866666667
+162,28,Female,,Small City,Finance,3.3,2.8,1.8,3.933333333
+163,45,Male,deg,Medium-Sized,Career,3.9,3.2,4.6,4.4
+164,28,Female,deg,Small Town,Finance,3.3,2.4,2.8,3.733333333
+165,37.5,Male,deg,Large-City,Self,3.2,2.6,2.8,4.066666667
+166,45,Male,,Small City,Health,3.818181818,3,2.8,4.066666667
+167,37.5,Female,deg,Small Town,Friends,2.090909091,4.8,1.8,4.333333333
+168,55,Female,dip,Large Town,Self,4,1.8,3.2,4
+169,32.5,Female,ma,Small Town,Health,3.5,4.2,4,4.466666667
+170,22,Male,,Small City,Education,3.5,2.8,4,4.133333333
+171,22,Male,ma,Large-City,Romance,3.181818182,3.4,3.4,4.533333333
+172,25,Male,dip,Medium-Sized,Education,3,2.8,2.2,4.4
+173,55,Female,deg,Large-City,Finance,3.166666667,3,3.6,4.266666667
+174,45,Female,phd,Medium-Sized,Career,3.5,4.2,2.6,4.533333333
+175,19,Male,,Large-City,Finance,3.4,3.2,3,4.066666667
+176,37.5,Male,dip,Large Town,Career,1.3,3.6,2.2,4.466666667
+177,37.5,Female,phd,Small City,Career,3.181818182,3.2,5,4.333333333
+178,45,Male,phd,Large-City,Finance,3.090909091,2.2,3.8,4.2
+179,55,Male,phd,Medium-Sized,Career,2.375,4.6,2.6,4.133333333
+180,19,Male,dip,Small City,Education,3.636363636,4.6,4.4,4.133333333
+181,45,Male,ma,Medium-Sized,Career,2.583333333,3,3.6,4
+182,37.5,Female,,Large Town,Health,1.454545455,4.2,1.2,4.066666667
+183,55,Male,ma,Small Town,Romance,1.444444444,3.8,2,4.133333333
+184,37.5,Male,deg,Medium-Sized,Health,3.25,3.2,2.8,4.066666667
+185,28,Female,ma,Large-City,Education,2.8,4.8,3.6,3.8
+186,22,Female,deg,Large-City,Education,3,1.8,4,3.733333333
+187,32.5,Male,deg,Large-City,Career,2.636363636,3.6,2.6,4.133333333
+188,37.5,Female,phd,Large-City,Career,2.454545455,2.8,3,4.133333333
+189,45,Female,deg,Small Town,Finance,3.75,1.6,4.4,4.6
+190,45,Female,,Small City,Health,4.181818182,2.4,4.2,4.2
+191,32.5,Female,deg,Medium-Sized,Self,2.333333333,3.2,2.4,4.266666667
+192,55,Female,deg,Large Town,Leisure,,2.8,3,4.2
+193,32.5,Female,deg,,Self,3.818181818,4,5,4.2
+194,32.5,Female,ma,Rural/Country,Finance,2.875,4.2,3,4
+195,67.5,Male,phd,Medium-Sized,Finance,2.083333333,4.2,2.4,4.133333333
+196,28,Male,high,Large-City,Self,2,3.8,1.4,3.933333333
+197,55,Male,ma,Large Town,Career,2.583333333,3.4,3.6,4.533333333
+198,28,Female,deg,Medium-Sized,Finance,1.7,3.8,1.8,3.733333333
+199,55,Male,phd,Small City,Career,3.4,2.2,3,4.133333333
+200,55,Female,deg,Village,Finance,4.090909091,2.4,2.6,4.133333333
+201,37.5,Female,deg,Large-City,Career,4.1,1,4.2,4.2
+202,21,Female,deg,Small Town,Family,2.9,4.2,3,3.866666667
+203,28,Female,ma,Large-City,Education,3.090909091,3.4,3.2,3.933333333
+204,,,deg,Small Town,Health,3.875,1.4,3.6,4.266666667
+205,55,Female,ma,Large-City,Finance,2.416666667,4,2.8,3.6
+206,45,Female,deg,Large-City,Friends,3,2.6,3.4,4.266666667
+207,22,Male,dip,Medium-Sized,Education,2.375,2.8,3,3.8
+208,45,Female,ma,Medium-Sized,Parenting,2.333333333,3.6,1.2,4
+209,25,Female,ma,Large-City,Education,3.818181818,3.4,3.4,4.8
+210,45,Male,ma,Large-City,Self,3.777777778,3,4,4.533333333
+211,32.5,Male,phd,Medium-Sized,Self,3.375,2.6,4.4,3.8
+212,32.5,Female,dip,Large Town,Career,1.375,3.4,2.2,4.333333333
+213,45,Male,ma,Medium-Sized,Career,3.272727273,2.4,1.4,4.066666667
+214,37.5,Male,deg,Small City,Career,2.833333333,2.2,2.4,3.733333333
+215,67.5,Male,ma,Medium-Sized,Religion,2.181818182,3.4,1.4,4.333333333
+216,22,Female,deg,Large-City,Education,1.818181818,3,2,4
+217,80,Male,deg,Large-City,Self,1.285714286,3.4,1,4.266666667
+218,28,Female,ma,Small City,Career,3.3,3,3.2,3.8
+219,,Female,ma,Large-City,Finance,2.333333333,3.4,2.8,3.866666667
+220,24,Female,deg,Large-City,Finance,2.272727273,3.6,2.6,5.066666667
+221,67.5,Male,ma,Rural/Country,Leisure,1.583333333,5,1.2,3.866666667
+222,67.5,Female,deg,,Finance,3.909090909,1.6,3,3.933333333
+223,45,Female,phd,Large-City,Career,4.272727273,3.6,3.4,3.933333333
+224,45,Male,ma,Large-City,Health,2.090909091,3.8,1.8,4.466666667
+225,28,Male,deg,Large-City,Romance,2.777777778,2.6,3,3.933333333
+226,55,Female,phd,Large Town,Career,3.416666667,3.4,3.4,4.533333333
+227,37.5,Male,deg,Small City,Education,2.8,2.2,4,4.266666667
+228,21,Female,deg,Small City,Education,2.909090909,4.4,2.6,4.266666667
+229,20,Male,,Large-City,Education,3,3,4.4,4.933333333
+230,37.5,Male,ma,Large-City,Career,3.583333333,3,3.4,4.133333333
+231,67.5,Female,dip,Large-City,Health,3.111111111,4,1.6,4.2
+232,67.5,Male,phd,Large Town,Finance,2.181818182,5,1.8,4.8
+233,28,Male,ma,Medium-Sized,Romance,4.181818182,1.8,3,4.266666667
+234,21,Male,,Medium-Sized,Education,3.727272727,3.4,2.8,4.333333333
+235,21,Male,,Large Town,Education,2.2,5,2.4,3.866666667
+236,32.5,Female,deg,Medium-Sized,Career,3.777777778,2,4,4.133333333
+237,32.5,Female,deg,Large Town,Career,2.666666667,4,4.8,4.4
+238,19,Female,,Rural/Country,Education,3,3,3,4.6
+239,55,Male,ma,Large-City,Career,3.666666667,2,2.4,4.6
+240,23,Male,,Medium-Sized,Education,3.25,2.8,3.6,4.333333333
+241,32.5,Male,phd,Medium-Sized,Career,3.75,2.4,4.6,4.066666667
+242,45,Male,ma,Small City,Family,4,3,1.8,4.533333333
+243,37.5,Female,ma,Large-City,Career,4.4,2.2,5,4.733333333
+244,67.5,Male,high,Small City,Career,3.583333333,1,3.6,4.2
+245,23,Female,,Small City,Friends,3.5,5,3.4,4.133333333
+246,32.5,Male,ma,Medium-Sized,Career,3,1,2.6,4.066666667
+247,67.5,Male,deg,Medium-Sized,Community,1,4.8,1.2,4
+248,28,Male,phd,Small City,Career,2.909090909,3.8,3.8,4.666666667
+249,28,Female,ma,Large-City,Education,2.9,3.6,2.4,4.066666667
+250,32.5,Female,deg,Large-City,Health,3.2,2.8,3.4,4.066666667
+251,32.5,Male,ma,Large-City,Career,2.833333333,2,4,4.333333333
+252,45,Female,deg,Rural/Country,Finance,2.875,3.8,2.4,3.8
+253,37.5,Female,ma,Medium-Sized,Education,1.454545455,4.4,3.6,4.466666667
+254,32.5,Female,phd,Large-City,Career,3.25,4.6,3.8,4
+255,28,Female,ma,Large-City,Finance,3.222222222,4.6,2.6,4.066666667
+256,19,Female,,Large-City,Education,2.9,3.2,3.8,3.8
+257,28,Female,ma,Small City,Friends,3.571428571,4.8,2.6,4.2
+258,25,Female,ma,Medium-Sized,Education,2.272727273,4.8,1,3.533333333
+259,22,Female,deg,Large-City,Career,3.363636364,1.8,3,4.066666667
+260,21,Female,,Medium-Sized,Education,2.181818182,4.4,2.2,4
+261,28,Female,,Large-City,Finance,2.6,2.8,2.6,4.2
+262,24,Female,ma,Large-City,Education,2.333333333,3,4,4.4
+263,25,Male,deg,Small City,Career,3.7,1.6,3.6,4.066666667
+264,24,Female,,Small City,Education,2.6,3.4,2.4,3.866666667
+265,16.5,Male,,Small City,Health,3.444444444,3,3.4,4.133333333
+266,37.5,Female,deg,Small Town,Health,3.545454546,4,3,4.4
+267,45,Male,phd,Small City,Career,3.583333333,1.6,3.2,4.2
+268,24,Female,phd,Large-City,Health,3.272727273,3.2,2.4,4.066666667
+269,20,Female,deg,Large-City,Education,2.7,2.2,2.4,4.266666667
+270,32.5,Male,phd,Large-City,Career,2.8,4,2,3.8
+271,25,Female,ma,Small Town,Education,5,1.4,4.6,3.933333333
+272,16.5,Female,high,Small Town,Education,2.583333333,3.2,2.8,4.333333333
+273,45,Female,deg,Medium-Sized,Finance,3.3,3.2,3.4,4.4
+274,32.5,Female,,Large-City,Education,2.909090909,3,3.6,4.333333333
+275,45,Female,deg,Small City,Career,3.111111111,2.6,3,4.466666667
+276,45,Male,phd,Large-City,Career,2.083333333,2.4,2.4,4.466666667
+277,37.5,Female,deg,Large-City,Finance,4.1,1,4.6,3.866666667
+278,45,Female,,Small City,Education,4,1.4,3,4
+279,20,Female,,Small Town,Health,2.222222222,3.6,2.8,3.933333333
+280,55,Female,ma,Large-City,Health,3.2,2.6,3.4,4.266666667
+281,25,Female,ma,Small City,Education,3,3.2,3.6,4.133333333
+282,22,Female,,Large-City,Education,3.3,4,3.6,3.533333333
+283,22,Female,deg,Small City,Career,2.727272727,3.2,3,3.733333333
+284,32.5,Female,deg,Small City,Career,2.090909091,2.8,2.4,4.133333333
+285,37.5,Female,phd,Medium-Sized,Finance,2.3,4,1.2,3.8
+286,67.5,Female,deg,Medium-Sized,Finance,2.181818182,3.6,2,4.2
+287,19,Female,,Medium-Sized,Education,2.727272727,2.8,2.4,4.066666667
+288,21,Male,,Large-City,Education,2.272727273,2.6,2.6,4.6
+289,25,Male,deg,Medium-Sized,Career,4.9,2.4,5,4
+290,24,Male,,Small City,Self,4.818181818,1,5,4.333333333
+291,55,Female,deg,Large Town,Career,3.272727273,3.8,3,3.933333333
+292,55,Female,deg,Large-City,Career,2.75,3.8,2.6,3.933333333
+293,37.5,Female,ma,Large-City,Self,2.6,3.8,2.2,4.333333333
+294,45,Female,,Large-City,Career,2.75,3.8,2.6,3.6
+295,21,Female,,Medium-Sized,Education,1.75,4.4,2.4,4.533333333
+296,32.5,Female,deg,Small City,Self,3.818181818,4.2,4.6,4.533333333
+297,37.5,Female,deg,Small City,Health,3.111111111,2.2,2.2,3.866666667
+298,28,Female,,Small City,Finance,2.454545455,3,3,4.266666667
+299,37.5,Female,,Large-City,Education,3.222222222,1.8,5,4.266666667
+300,67.5,Female,,Large-City,Education,2.636363636,3.6,4.4,4.733333333
+301,45,Male,phd,Large-City,Parenting,3,2.6,3.6,4.2
+302,16.5,Male,,Large-City,Education,3,3.8,2.6,4.333333333
+303,32.5,Male,ma,Large-City,Career,2.833333333,4.6,2.4,4.4
+304,55,Male,deg,Large-City,Career,3.181818182,2.8,3.6,4.333333333
+305,67.5,Male,ma,Medium-Sized,Career,1.2,4,1.6,3.8
+306,25,Female,ma,Large-City,Health,3.363636364,3,3,4.266666667
+307,28,Female,deg,Small City,Career,3.090909091,2,4.2,4.4
+308,28,Female,phd,Small City,Health,2.8,3.6,2,4.4
+309,28,Female,ma,Medium-Sized,Career,3.6,3.4,2,3.733333333
+310,45,Female,deg,Large-City,Romance,4.363636364,1.6,3.6,3.933333333
+311,55,Female,ma,Large-City,Finance,2,2,2.8,4.333333333
+312,45,Female,phd,Large Town,Career,2.363636364,4,1.6,4.6
+313,32.5,Male,phd,Large-City,Career,3.625,2.4,2.2,4.066666667
+314,24,Female,deg,Large-City,Career,4.3,1.4,4.6,4.266666667
+315,55,Female,phd,Small Town,Leisure,1.333333333,4.4,1.6,4.2
+316,28,Female,phd,Village,Career,2.777777778,5,2.6,4.266666667
+317,80,Male,phd,Village,Self,2.111111111,3.2,3.6,4.533333333
+318,67.5,Male,ma,Small Town,Romance,1.6,4.4,3.2,4
+319,32.5,Male,deg,Village,Family,2.636363636,3.2,2.2,4.066666667
+320,67.5,Female,dip,Small Town,Family,2.090909091,3.8,2.6,4.266666667
+321,28,Female,deg,Village,Health,2.2,4.2,2.6,4
+322,32.5,Female,phd,Village,Career,2.181818182,4,2.2,4.6
+323,55,Female,deg,Village,Health,2.8,3.8,2.6,4.2
+324,45,Female,phd,Large-City,Health,2.727272727,3,2.2,4.133333333
+325,55,Female,ma,Village,Health,2,3.8,1.2,3.933333333
+326,45,Female,deg,Medium-Sized,Health,4.333333333,1,2.4,4.4
+327,32.5,Male,phd,Village,Leisure,2.2,4.4,2.2,4.133333333
+328,28,Female,deg,Village,Family,3.1,3.8,4,4.533333333
+329,28,Male,ma,Rural/Country,Romance,3.3,3,4.4,4.866666667
+330,28,Male,deg,Village,Career,3.8,1,3.4,4.6
+331,19,Female,,Small Town,Education,3.8,3.6,3.4,4.066666667
+332,20,Female,,Village,Education,4.285714286,1.4,2.6,4.066666667
+333,45,Female,deg,Medium-Sized,Career,4.333333333,2.8,4.6,4.2
+334,45,Male,deg,Large Town,Career,4.416666667,1.6,4.4,4.333333333
+335,67.5,Female,,Medium-Sized,Finance,1.8,4,1.4,3.933333333
+336,45,Male,ma,Large Town,Career,3.25,2.6,3.4,4.066666667
+337,28,Female,ma,Large Town,Education,3.363636364,2.4,2,4.4
+338,25,Male,deg,Village,Career,4.727272727,4,4,4
+339,21,Female,dip,Small Town,Finance,3,2.6,2.8,3.933333333
+340,21,Female,,Village,Education,2.363636364,2.8,2.4,4.333333333
+341,45,Female,phd,Medium-Sized,Family,2.090909091,4.4,1.2,4
+342,45,Male,deg,Large Town,Career,2.777777778,2.8,3,4.266666667
+343,45,Male,ma,Large Town,Leisure,2.363636364,4,2.2,3.666666667
+344,28,Female,ma,Village,,3,3.8,2,3.8
+345,45,Male,ma,Village,Health,2.9,2.6,2,4.333333333
+346,45,Female,deg,Medium-Sized,Health,1.454545455,4.6,1.4,4.2
+347,55,Female,ma,Rural/Country,Career,3.636363636,1.4,3.6,4.333333333
+348,16.5,Female,lthigh,Medium-Sized,Education,2.555555556,2.8,4.4,4.333333333
+349,37.5,Female,dip,Small Town,Self,2,2.4,2.2,3.8
+350,28,Female,phd,Small Town,Career,2.777777778,3.6,3,3.933333333
+351,28,Female,ma,Village,Family,2.363636364,4.2,1.4,4
+352,37.5,Female,ma,Village,Health,3.2,3.8,2.2,3.933333333
+353,45,Female,ma,Village,Career,2.222222222,4.6,1.6,4.066666667
+354,45,Female,deg,Small Town,Career,4.2,2.2,5,4.2
+355,55,Male,,Small Town,Self,3.777777778,2,3.6,4.533333333
+356,45,Male,,Medium-Sized,Self,4.090909091,1.8,3.4,3.866666667
+357,22,Female,deg,Village,Friends,3.272727273,3,1.8,3.866666667
+358,67.5,Male,,Large Town,Self,3.6,1.8,5,5
+359,32.5,Female,ma,Village,Career,2.8,4,3.2,4.666666667
+360,32.5,Female,ma,Village,Education,4.142857143,2.4,3.6,4.2
+361,22,Male,,Large Town,Education,4,4.8,2.8,3.933333333
+362,55,Female,ma,8,Career,2.916666667,2.4,3.6,4.066666667
+363,20,Female,deg,Village,Education,2.4,4,2.4,4
+364,,,deg,Rural/Country,Finance,1.571428571,3.6,2.6,4.133333333
+365,28,Female,deg,Village,Romance,2,4.8,2,4.333333333
+366,45,Female,ma,Large Town,Finance,3.25,1.6,3.6,4.066666667
+367,55,Female,deg,Village,Finance,2.727272727,2.4,1.6,3.6
+368,55,Female,,Large-City,Self,2.666666667,1.6,3.6,4.4
+369,32.5,Female,,Small Town,Education,1.272727273,5,1,4.866666667
+370,37.5,Male,,Large-City,Career,2.166666667,4.8,1,3.933333333
+371,32.5,Female,deg,Large Town,Finance,3.636363636,4,2.4,4.533333333
+372,16.5,Male,lthigh,Large Town,Education,3.375,2,4.2,4.333333333
+373,67.5,Male,ma,Large-City,Career,3.636363636,1.6,3.8,4.2
+374,28,Female,ma,Village,Career,3.2,3.8,4,4.666666667
+375,45,Female,phd,Large Town,Career,3.2,2,3.8,4
+376,45,Female,phd,8,Career,2.4,3.8,2.4,4.533333333
+377,55,Male,,Large Town,Health,3.333333333,3.8,2,4.733333333
+378,28,Female,dip,Small Town,Finance,1.909090909,4.8,2,4.133333333
+379,45,Female,deg,Small Town,Career,1.333333333,2.8,3.4,4.4
+380,32.5,Female,ma,Small Town,Romance,3.111111111,3.6,3,4.266666667
+381,32.5,Male,phd,Village,Romance,2.454545455,4,1.2,4.466666667
+382,45,Male,phd,Small Town,Family,2.727272727,3.4,3.2,3.866666667
+383,45,Male,ma,Small Town,Finance,2.5,4.6,1.6,4.266666667
+384,28,Female,deg,Medium-Sized,Education,3.3,2.6,3.6,3.933333333
+385,55,Male,dip,8,Career,1.818181818,1,2.8,4.066666667
+386,37.5,Female,phd,Small Town,Career,2.636363636,3.6,3,4.133333333
+387,55,Female,high,Small Town,Friends,2.777777778,2.8,3,4.266666667
+388,28,Female,deg,Village,Friends,2.727272727,2.8,3,4.533333333
+389,55,Male,,Village,Career,3.875,2,4.2,4.4
+390,45,Female,deg,Small Town,Finance,3,3.6,3.4,4.2
+391,28,Male,ma,Village,Family,2,3.6,2.2,4.2
+392,67.5,Female,phd,Small Town,Career,2.5,3.8,3.6,4.066666667
+393,28,Male,deg,Small Town,Finance,3.1,2.8,2.2,4.133333333
+394,55,Female,phd,Small Town,Career,3.5,2.6,3,3.8
+395,23,Female,deg,Small Town,Health,3.9,2,4.2,4.133333333
+396,45,Female,dip,8,Finance,4.5,2.8,4.2,4.066666667
+397,28,Female,deg,Large Town,Career,2.818181818,3.8,2.6,4.066666667
+398,55,Male,phd,Small Town,Friends,1.666666667,4.6,1.4,3.733333333
+399,67.5,Male,phd,Small Town,Health,2.916666667,2.8,3.2,4.933333333
+400,55,Female,ma,Village,Finance,3.333333333,3.4,3.2,4.2
+401,23,Male,deg,Small Town,Education,2,3.4,4.2,4.066666667
+402,67.5,Female,deg,,Education,2.5,4.2,2.8,4.266666667
+403,32.5,Male,ma,Large Town,Education,3.363636364,1,4.6,4.8
+404,55,Male,ma,Rural/Country,Career,2.222222222,2.8,3,4.933333333
+405,55,Male,,Small Town,Friends,1.166666667,3.8,2.4,3.933333333
+406,28,Male,ma,Village,Self,3.555555556,1.8,3.2,4.066666667
+407,32.5,Female,deg,Village,Finance,3.583333333,3.6,2.8,4.066666667
+408,37.5,Female,,Village,Education,3,1.4,3.2,3.8
+409,45,Female,deg,Small Town,Romance,2.2,3,2.2,4.466666667
+410,55,Male,phd,Large Town,Finance,3.375,3.4,2.2,4.133333333
+411,32.5,Female,phd,Small Town,Family,2.625,4.2,3.6,4.266666667
+412,32.5,Female,dip,Village,Romance,2.555555556,2.2,2.8,4
+413,28,Male,ma,Small Town,Career,2.8,2.8,2.4,4.133333333
+414,45,Female,dip,Village,Education,3.75,4,3.6,4.6
+415,67.5,Female,,Village,Friends,1.818181818,4.2,2.8,4.4
+416,55,Male,deg,Village,Finance,3,2.8,2.6,3.866666667
+417,67.5,Male,phd,Village,Career,2.416666667,3.8,4,3.8
+418,25,Male,ma,Village,Health,2.454545455,3.4,3.6,4.2
+419,32.5,Female,deg,Large Town,Finance,3.8,2,3.4,4.133333333
+420,19,Female,,Large Town,Education,4.272727273,1.6,4.8,4.533333333
+421,55,Female,ma,Rural/Country,Leisure,3.090909091,3.8,3.6,4.6
+422,28,Female,dip,Village,Career,3,1.6,3.2,4.066666667
+423,28,Female,deg,Small Town,Finance,3,3.4,2.4,4
+424,28,Female,phd,Small Town,Career,3.454545455,2,2,4
+425,24,Female,deg,Village,Career,2.4,4.8,3.2,3.6
+426,45,Female,ma,Medium-Sized,Career,1.909090909,4.2,1,4.4
+427,55,Female,deg,Rural/Country,Finance,2.888888889,2.4,3.8,4
+428,28,Male,phd,Large Town,Romance,2.181818182,4,1.8,3.8
+429,55,Male,,Village,Finance,1.222222222,3.8,2.4,3.6
+430,22,Female,deg,Village,Education,2.9,3.8,3.6,4.133333333
+431,32.5,Female,deg,Village,Career,4.444444444,3.8,4,4.266666667
+432,37.5,Female,ma,Small Town,Health,2.25,4,2.6,4.2
+433,37.5,Male,phd,Village,Career,2.9,2.8,3.4,4.666666667
+434,28,Female,deg,Rural/Country,Finance,3.4,2,4.4,4.066666667
+435,20,Female,,Village,Education,3.454545455,4.4,5,4.333333333
+436,37.5,Female,phd,Village,Self,1.5,4,2,4.2
+437,45,Female,deg,Village,Romance,2,3.2,1.4,3.6
+438,24,Female,deg,Village,Career,2.181818182,3,3.8,4.8
+439,28,Male,phd,Small Town,Self,3.083333333,4.4,3,4
+440,19,Female,,Large Town,Education,3.4,2,1,4.333333333
+441,55,Male,ma,Large Town,Career,2.25,3.6,2.6,4.2
+442,32.5,Female,deg,Medium-Sized,Education,3,2.6,2.4,3.933333333
+443,45,Female,dip,,Self,2.125,2.6,2.6,4.533333333
+444,16.5,Female,high,Small Town,Education,2.555555556,3.2,2.6,4.133333333
+445,20,Female,,Medium-Sized,Education,4,1.8,3.8,4.666666667
+446,32.5,Female,deg,Large-City,Career,3.2,4.4,2.2,4.2
+447,55,Female,high,Medium-Sized,Career,3.333333333,2,2.4,4.133333333
+448,67.5,Male,phd,Village,Friends,2.4,3.8,3.6,4.266666667
+449,19,Male,high,Rural/Country,Career,3.9,1.8,4.2,3.866666667
+450,37.5,Female,,Small Town,Career,4.818181818,1,5,4.4
+451,37.5,Male,ma,Village,Career,3.272727273,2.2,4,4.2
+452,37.5,Female,phd,Village,Career,4.3,1.6,2.6,4.4
+453,45,Male,ma,Village,Finance,2.75,3,2.4,4.466666667
+454,55,Male,phd,Large Town,Career,3.636363636,1.4,3.4,3.866666667
+455,37.5,Male,,Large Town,Self,3.727272727,1.8,3.8,4.466666667
+456,55,Female,deg,Medium-Sized,Career,2,4.4,1.4,4.066666667
+457,22,Female,dip,Village,Community,3.555555556,4.4,1.4,3.866666667
+458,67.5,Female,,Village,Finance,3.636363636,1,5,4.266666667
+459,55,Female,ma,Rural/Country,Health,2.5,4.2,3,4.133333333
+460,55,Female,ma,Large Town,Health,2,3.6,1.6,3.866666667
+461,24,Male,deg,Village,Education,2.125,4.4,2.8,4.4
+462,67.5,Female,,Rural/Country,Health,3.25,2,2.8,3.8
+463,28,Male,,Small Town,Self,3.272727273,2.8,3.6,4.133333333
+464,55,Male,,Medium-Sized,Family,1.2,4.2,1,4.4
+465,37.5,Female,ma,Large Town,Community,3,3.4,2.6,4.333333333
+466,19,Female,,,Friends,4.666666667,3,4.2,4.4
+467,45,Female,phd,Large Town,Finance,3.444444444,2.8,2,4.2
+468,28,Female,deg,Medium-Sized,Education,3.4,3,3.6,4.133333333
+469,16.5,Male,lthigh,,Education,5,5,5,5.8
+470,7.5,Male,lthigh,,Friends,2.363636364,2.6,2.2,3.666666667
+471,55,Female,phd,Large-City,Finance,3.272727273,1,4.2,4.2
+472,45,Male,phd,Large-City,Career,3.363636364,1.4,3,4.4
+473,,,,,Finance,2.363636364,4,2.4,4.266666667
+474,,,,,Career,3.875,2,3.4,4.133333333
+475,,,,,Finance,4.333333333,1.2,4.8,4.066666667
+476,21,Female,,Small Town,Education,1.9,5,2.6,4.466666667
+477,37.5,Male,ma,,Health,2.8,2.8,2.6,3.866666667
+478,,,,,Education,4,1,5,4.066666667
+479,55,Female,ma,Medium-Sized,Career,2.75,4,4.2,4.466666667
+480,28,Male,deg,,Education,4,2.6,4.6,3.133333333
+481,,,,,Self,,1,1,2.333333333
+482,,Female,ma,,Romance,2.222222222,4,2.8,4.2
+483,,,,,,2.6,4.2,1.8,4.333333333
+484,55,Male,deg,Medium-Sized,Finance,3.5,3.4,3.8,4.333333333
+485,,,,0,,,1,3.8,3.733333333
+486,55,Male,lthigh,Small Town,Self,3.4,2,4.2,4.066666667
+487,24,Male,deg,,Education,4.4,1.6,3.4,4.4
+488,55,Female,phd,Large Town,Career,2.545454546,3.6,2,4.666666667
+489,,,,,Career,2,3.6,3.2,3.866666667
+490,19,Male,,,Education,3.7,4.2,4,4.2
+491,25,Female,ma,,Education,2.6,4,2.4,3.8
+492,28,Male,deg,,Career,3,2,3.8,4.333333333
+493,,,,,Education,,1,4.8,4.466666667
+494,,Male,,Large-City,Self,3.363636364,2.2,3.2,4
+495,21,Female,,,Education,2.6,3.8,3.4,4.266666667
+496,,,,,Education,2.545454546,3.8,1,4.466666667
+497,,,,,Health,2.181818182,3.2,1.6,4.2
+498,,,,,Health,2.428571429,1.8,2.8,4.2
+499,45,Male,phd,Village,,2.777777778,3.2,2,3.933333333
+500,37.5,Male,ma,Large-City,Romance,3.090909091,2.8,3.6,4
