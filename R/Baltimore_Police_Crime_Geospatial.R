@@ -39,6 +39,7 @@ unique(df$Weapon)
 dtlower<- as.Date('2015/04/30', format='%Y/%m/%d') # Make sure the date ACTUALLY exists.
 dtupper<- as.Date('2015/06/01', format='%Y/%m/%d')
 
+# These are confrontations involving specific weapons
 hands<-df[which(df$CrimeDate > dtlower & df$CrimeDate < dtupper & df$Weapon == 'HANDS'), ]
 guns<-df[which(df$CrimeDate > dtlower & df$CrimeDate < dtupper & df$Weapon == 'FIREARM'), ]
 knives<-df[which(df$CrimeDate > dtlower & df$CrimeDate < dtupper & df$Weapon == 'KNIFE'), ]

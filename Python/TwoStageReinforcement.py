@@ -76,6 +76,7 @@ while (count<len(Silver)):
 Silver=Silver.reset_index(drop='index')
 print Silver
 
+# If Transition = 1, that means it is common.  If it is -1, then it is rare.
 Silver['Transition']=0
 count=0
 while (count<len(Silver)):
